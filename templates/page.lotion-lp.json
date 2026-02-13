@@ -12,6 +12,8 @@
     "main": {
       "type": "lotion-lp",
       "settings": {
+        "locao-principal": "locao-principal",
+        "colecoes-do-verao": "colecoes-do-verao"
       }
     }
   },
