@@ -11,7 +11,8 @@
   "sections": {
     "main": {
       "type": "lotion-lp",
-      "settings": {}
+      "settings": {
+      }
     }
   },
   "order": [
