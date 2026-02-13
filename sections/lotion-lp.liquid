@@ -5,7 +5,7 @@
 {% if product and product.id%}
     
     <div class="product">
-        <p><b>Destaque </b>{{product.title}}</p>
+        <p><b> Produto em Destaque </b>{{product.title}}</p>
         <img src="{{product.featured_image.src |  image_url: width: '500px'}}" width="500px" height="auto" alt="product.feature_alt">
         <p><b>Preço </b>{{product.price |  money}}</p>
     </div>
@@ -19,8 +19,8 @@
 <div class="products">
     {% for product in collection.products %}
     <div class="product">
-        <p><b>Título do Produto</b> {{product.title}}</p>  
-        <img src="{{product.featured_image.src |  image_url: width: '250px'}}" width="250px" height="auto" alt="product.feature_alt">
+        <p><b>Loção: </b> {{product.title}}</p>  
+        <img src="{{product.featured_image.src |  image_url: width: '250px'}}" width="250px" height="150px" alt="product.feature_alt">
          <p><b>Preço do Produto </b>{{product.price |  money}}</p> 
     </div>
     {% endfor %}
